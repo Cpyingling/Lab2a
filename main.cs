@@ -12,12 +12,12 @@ class Program {
     var name = Console.ReadLine();
     //item quantity
     Console.WriteLine ("Enter the quantity.");
-    double quantity = Convert.ToDouble(Console.ReadLine());
+    decimal quantity = Convert.ToDecimal(Console.ReadLine());
     //item price
     Console.WriteLine ("Enter the price.");
-    double price = Convert.ToDouble(Console.ReadLine());
+    decimal price = Convert.ToDecimal(Console.ReadLine());
     //multiply quantity by price
-    double total = price * quantity;
+    decimal total = price * quantity;
     //total price
     Console.WriteLine ($"Total price of {name} =$ {total}");
   }
